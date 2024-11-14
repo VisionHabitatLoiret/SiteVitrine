@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Vision Habitat Loiret</title>
+
+</head>
+
+<body class="font-sans font-thin">
+  <div class="w-full h-screen relative text-neutral-200" id="main-page">
+    <img src="images/main_bg.webp" class="absolute top-0 left-0 -z-50 w-full h-full object-cover filter blur-sm" />
+    <div class="bg-neutral-800 w-full z-10">
+      <header class="z-10 relative mx-auto max-w-7xl px-6 py-8 flex justify-between items-center">
+        <div class="flex flex-row z-20 relative h-10 justify-between items-center gap-4">
+          <a href="#"><img src="logos/logo.webp" class="flex flex-shrink-1 w-20 object-scale-down" /></a>
+          <a href="#" class="flex text-xl tracking-wider">Vision Habitat Loiret</a>
+        </div>
+        <ul class="hidden md:flex uppercase text-sm text-gray-500">
+          <li>
+            <a href="#" class="text-white">Home</a>
+          </li>
+          <li class="ml-6">
+            <a href="approche.html">Notre approche</a>
+          </li>
+          <li class="ml-6">
+            <div id="bouton" class="relative group/bouton w-full pb-2">
+              <a href="" disabled>Nos actions</a>
+              <div
+                class="absolute w-max top -translate-x-1/4 translate-y-2 origin-top opacity-0 hidden flex-col group-hover/bouton:flex group-hover/bouton:opacity-100 group-hover/bouton:bg-opacity-75 transition-all rounded-md border-2 border-neutral-200 filter backdrop-blur-[1px] bg-neutral-500">
+                <ul class="p-2 text-neutral-200">
+                  <li class="p-2 hover:bg-neutral-200 hover:text-neutral-800 rounded">
+                    <a href="nos-actions/prieure-chateau-renard.html">Prieuré Chateau-Renard</a>
+                  </li>
+                  <li class="p-2 hover:bg-neutral-200 hover:text-neutral-800 rounded">
+                    <a href="nos-actions/ancien-ehpad.html">Ancien EHPAD</a>
+                  </li>
+                </ul>
+              </div>
+          </li>
+          <li class="ml-6">
+            <a href="a_propos.html">À propos</a>
+          </li>
+        </ul>
+      </header>
+    </div>
+
+    <div class="absolute top-0 left-0 w-full h-full flex justify-center items-center text-center pt-12 pb-6">
+      <div>
+        <h1 class="text-3xl md:text-6xl leading-tight mb-16 [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Les logements de demain, <br
+            class="hidden md:block" />ancrés dans la tradition.</h1>
+        <a href="#actions" class="border-2 border-neutral-200 rounded-lg py-4 text-2xl px-8 hover:bg-neutral-800 hover:bg-opacity-75 [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">Découvrir</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-12 mt-2 px-6" id="actions">
+    <div class="max-w-6xl mx-auto mb-24">
+      <h2 class="mx-auto text-center text-2xl md:text-5xl max-w-3xl leading-tight text-gray-800 mb-12">Nos actions</h2>
+    </div>
+    <div id="discover" class="w-5/6 mx-auto flex flex-wrap items-stretch justify-center gap-16">
+      <div onclick="location.href='nos-actions/ancien-ehpad.html';"
+        class="cursor-pointer w-full md:w-1/3 p-4 rounded-xl border-4 border-neutral-600  bg-neutral-100 hover:bg-neutral-200">
+        <img src="images/ehpad.webp" class="block w-full h-72 mb-12 object-cover rounded-lg" />
+        <h3 class="block text-2xl text-black text-center mb-6">Ancien EHPAD de Château-Renard</h3>
+        <p class="mb-6 text-neutral-600 text-center leading-relaxed text-sm">Texte bablabla</p>
+      </div>
+      <div onclick="location.href='nos-actions/prieure-chateau-renard.html';"
+        class="cursor-pointer w-full md:w-1/3 p-4 rounded-xl border-4 border-neutral-600 bg-neutral-100 hover:bg-neutral-200">
+        <img src="images/prieure.webp" class="block w-full h-72 mb-12 object-cover rounded-lg" />
+        <h3 class="block text-2xl text-black text-center mb-6">Le prieuré de Château-Renard</h3>
+        <p class="mb-6 text-neutral-600 text-center leading-relaxed text-sm">Texte bablabla</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="bg-neutral-800">
+    <div class="max-w-screen-lg px-4 sm:px-6 text-neutral-300 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
+      <div class="p-5">
+        <h3 class="font-bold text-xl text-neutral-500">Vision Habitat Loiret</h3>
+      </div>
+      <div class="p-5">
+        <div class="text-sm uppercase text-neutral-500 font-bold">Liens</div>
+        <a class="my-3 block" href="index.html">Home</a>
+        <a class="my-3 block" href="approche.html">Notre approche</a>
+        <a class="my-3 block" href="a_propos.html">À propos</a>
+      </div>
+      <div class="p-5">
+        <div class="text-sm uppercase text-neutral-500 font-bold">Nos actions</div>
+        <a class="my-3 block" href="nos-actions/ancien-ehpad.html">Ancien EHPAD</a>
+        <a class="my-3 block" href="nos-actions/prieure-chateau-renard.html">Prieuré de Château-Renard</a>
+      </div>
+      <div class="p-5">
+        <div class="text-sm uppercase text-neutral-500 font-bold">Nous contacter</div>
+        <a class="my-3 block" href="">Adresse (mettre ref maps)</a>
+        <a class="my-3 block" href="">contact@company.com (mettre ref mail)</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-neutral-800">
+    <div class="flex pb-5 px-3 m-auto border-t border-neutral-400 text-sm flex-col
+      w-full items-center">
+      <div class="my-5 text-neutral-200">© Copyright 2024. All Rights Reserved.</div>
+    </div>
+  </div>
+
+</body>
+
+</html>
