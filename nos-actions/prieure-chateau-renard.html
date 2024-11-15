@@ -19,15 +19,15 @@
     <div class="bg-neutral-800 w-full">
       <header class="z-10 relative mx-auto max-w-7xl px-6 py-8 flex justify-between items-center">
         <div class="flex flex-row z-20 relative h-10 justify-between items-center gap-4">
-          <a href="#"><img src="../logos/logo.webp" class="flex flex-shrink-1 w-20 object-scale-down" /></a>
-          <a href="#" class="flex text-xl tracking-wider">Vision Habitat Loiret</a>
+          <a href="/index.html"><img src="/logos/logo.webp" class="flex flex-shrink-1 w-20 object-scale-down" /></a>
+          <a href="/index.html" class="flex text-xl tracking-wider">Vision Habitat Loiret</a>
         </div>
         <ul class="hidden md:flex uppercase text-sm text-neutral-500">
           <li>
-            <a href="../index.html">Home</a>
+            <a href="/index.html">Home</a>
           </li>
           <li class="ml-6">
-            <a href="../approche.html">Notre approche</a>
+            <a href="/approche.html">Notre approche</a>
           </li>
           <li class="ml-6">
             <div id="bouton" class="relative group/bouton w-full pb-2">
@@ -39,13 +39,13 @@
                     <a href="#">Prieuré Chateau-Renard</a>
                   </li>
                   <li class="p-2 hover:bg-neutral-200 hover:text-neutral-800 rounded">
-                    <a href="ancien-ehpad.html">Ancien EHPAD</a>
+                    <a href="/nos-actions/ancien-ehpad.html">Ancien EHPAD</a>
                   </li>
                 </ul>
               </div>
           </li>
           <li class="ml-6">
-            <a href="../a_propos.html">À propos</a>
+            <a href="/a_propos.html">À propos</a>
           </li>
         </ul>
       </header>
@@ -60,11 +60,11 @@
           <div class="flex transition-transform duration-500 ease-in-out transform" id="carousel">
             <!-- Slide 1 -->
             <div class="min-w-full">
-              <img src="../images/prieure.webp" alt="Slide 1" class="w-full h-full object-cover" />
+              <img src="/images/prieure.webp" alt="Slide 1" class="w-full h-full object-cover" />
             </div>
             <!-- Slide 2 -->
             <div class="min-w-full">
-              <img src="../images/ehpad.webp" alt="Slide 2" class="w-full h-full object-cover" />
+              <img src="/images/ehpad.webp" alt="Slide 2" class="w-full h-full object-cover" />
             </div>
             <!-- Slide 3 -->
             <div class="min-w-full">
@@ -104,7 +104,7 @@
         patrimoine tout en offrant des habitations abordables et écologiques, intégrant harmonieusement modernité et
         histoire.</p>
       <h2 class="text-start text-5xl">Localisation</h2>
-      <div class="w-2/3 text-black m-auto p-2 border-4 border-neutral-800 rounded-md">
+      <div class="w-2/3 text-black m-auto my-5 p-2 border-4 border-neutral-800 rounded-md">
         <iframe class="w-full aspect-video m-auto rounded"
           src="https://www.google.com/maps/embed?pb=!4v1731518535008!6m8!1m7!1sm4GavrTVYWUCZyfZjgZurg!2m2!1d47.93326521885116!2d2.927273494517573!3f14.8!4f0.6299999999999955!5f0.4000000000000002"
           allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -113,20 +113,41 @@
         Texte à rajouter sur la localisation
       </p>
       <h2 class="text-start text-5xl">Visite virtuelle</h2>
-      <div class="w-2/3 text-black m-auto p-2 border-4 border-neutral-800 rounded-md">
-          <iframe width='853' height='480' src="https://my.matterport.com/show/?m=P4xSUDroKZA" frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
+      <div class="w-2/3 text-black m-auto my-5 p-2 border-4 border-neutral-800 rounded-md">
+        <iframe class="w-full aspect-video m-auto rounded" src="https://my.matterport.com/show/?m=P4xSUDroKZA"
+          frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
       </div>
 
     </div>
 
-
-    <div class="bg-neutral-800 text-gray-100 text-center flex justify-center px-6 py-12">
-      <a class="mx-6 hover:text-gray-600">123 Address</a>
-      <a class="mx-6 hover:text-gray-600">0800 123 456</a>
-      <a class="mx-6 hover:text-gray-600">my@email.com</a>
-
+    <!-- Footer -->
+    <div class="bg-neutral-800 w-full justify-center mt-5">
+      <div class="max-w-screen-lg px-4 sm:px-6 text-neutral-300 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
+        <div class="p-5">
+          <h3 class="font-bold text-xl text-neutral-500">Vision Habitat Loiret</h3>
+        </div>
+        <div class="p-5">
+          <div class="text-sm uppercase text-neutral-500 font-bold">Liens</div>
+          <a class="my-3 block" href="/index.html">Home</a>
+          <a class="my-3 block" href="/approche.html">Notre approche</a>
+          <a class="my-3 block" href="/a_propos.html">À propos</a>
+        </div>
+        <div class="p-5">
+          <div class="text-sm uppercase text-neutral-500 font-bold">Nos actions</div>
+          <a class="my-3 block" href="/nos-actions/ancien-ehpad.html">Ancien EHPAD</a>
+          <a class="my-3 block" href="/nos-actions/prieure-chateau-renard.html">Prieuré de Château-Renard</a>
+        </div>
+        <div class="p-5">
+          <div class="text-sm uppercase text-neutral-500 font-bold">Nous contacter</div>
+          <a class="my-3 block" href="">Adresse (mettre ref maps)</a>
+          <a class="my-3 block" href="">contact@company.com (mettre ref mail)</a>
+        </div>
+      </div>
+      <div class="flex pb-5 px-3 m-auto border-t border-neutral-400 text-sm flex-col
+      w-full items-center">
+        <div class="my-5 text-neutral-200">© Copyright 2024. All Rights Reserved.</div>
+      </div>
     </div>
-
 
 </body>
 
