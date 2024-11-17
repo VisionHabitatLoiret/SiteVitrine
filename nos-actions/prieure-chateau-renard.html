@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <script src="../cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="../style.css">
   <title>Vision Habitat Loiret</title>
 </head>
@@ -31,10 +31,10 @@
                 class="absolute w-max top-0 translate-y-2 origin-top opacity-0 hidden flex-col group-hover/bouton:flex group-hover/bouton:opacity-100 group-hover/bouton:bg-opacity-75 transition-all rounded-md border-2 border-neutral-200 filter backdrop-blur-[1px] bg-neutral-500">
                 <ul class="p-2 text-neutral-200">
                   <li class="p-2 hover:bg-neutral-200 hover:text-neutral-800 rounded">
-                    <a href="prieure-chateau-renard.html">Prieuré Château-Renard</a>
+                    <a href="../nos-actions/prieure-chateau-renard.html">Prieuré Château-Renard</a>
                   </li>
                   <li class="p-2 hover:bg-neutral-200 hover:text-neutral-800 rounded">
-                    <a href="ancien-ehpad.html">Ancien EHPAD</a>
+                    <a href="../nos-actions/ancien-ehpad.html">Ancien EHPAD</a>
                   </li>
                 </ul>
               </div>
@@ -47,25 +47,33 @@
 
     <!-- Main Section -->
     <div class="w-5/6 text-black m-auto mt-10 flex flex-col gap-4">
-      <h1 class="text-start text-7xl">Le prieuré de Château-Renard</h1>
+      <h1 class="text-start text-7xl">Ancien EHPAD de Château-Renard</h1>
 
       <!-- Carousel -->
       <div class="relative w-1/2 m-auto">
         <div class="overflow-hidden relative rounded-lg">
           <div class="flex transition-transform duration-500 ease-in-out transform" id="carousel">
-            <div class="min-w-full"><img src="../images/prieure.webp" alt="Slide 1" class="w-full h-full object-cover" /></div>
-            <div class="min-w-full"><img src="../images/ehpad.webp" alt="Slide 2" class="w-full h-full object-cover" /></div>
+            <div class="min-w-full">
+              <img src="../images/prieure.webp" alt="Slide 1" class="w-full h-full object-cover" />
+            </div>
+            <div class="min-w-full">
+              <img src="../images/ehpad.webp" alt="Slide 2" class="w-full h-full object-cover" />
+            </div>
             <div class="min-w-full">
               <img src="https://via.placeholder.com/800x400/98FB98/000000" alt="Slide 3" class="w-full h-full object-cover" />
             </div>
           </div>
         </div>
-        <button class="absolute top-1/2 left-0 transform -translate-y-1/2 p-3 bg-gray-700 bg-opacity-50 rounded-full text-white hover:bg-opacity-75 focus:outline-none" onclick="scrollCarousel(-1)">
+        <button
+          class="absolute top-1/2 left-0 transform -translate-y-1/2 p-3 bg-gray-700 bg-opacity-50 rounded-full text-white hover:bg-opacity-75 focus:outline-none"
+          onclick="scrollCarousel(-1)">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
           </svg>
         </button>
-        <button class="absolute top-1/2 right-0 transform -translate-y-1/2 p-3 bg-gray-700 bg-opacity-50 rounded-full text-white hover:bg-opacity-75 focus:outline-none" onclick="scrollCarousel(1)">
+        <button
+          class="absolute top-1/2 right-0 transform -translate-y-1/2 p-3 bg-gray-700 bg-opacity-50 rounded-full text-white hover:bg-opacity-75 focus:outline-none"
+          onclick="scrollCarousel(1)">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
           </svg>
@@ -79,7 +87,7 @@
       <h2 class="text-start text-5xl">Localisation</h2>
       <div class="w-2/3 text-black m-auto my-5 p-2 border-4 border-neutral-800 rounded-md">
         <iframe class="w-full aspect-video m-auto rounded"
-          src="https://www.google.com/maps/embed?pb=!4v1731518535008!6m8!1m7!1sm4GavrTVYWUCZyfZjgZurg!2m2!1d47.93326521885116!2d2.927273494517573!3f14.8!4f0.6299999999999955!5f0.4000000000000002"
+          src="https://www.google.com/maps/embed?pb=!1m2!1v1731519081841"
           allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
@@ -95,20 +103,14 @@
   <!-- Footer -->
   <div class="bg-neutral-800 w-full justify-center mt-5">
     <div class="max-w-screen-lg px-4 sm:px-6 text-neutral-300 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
+      <div class="p-5"><h3 class="font-bold text-xl text-neutral-500">Vision Habitat Loiret</h3></div>
       <div class="p-5">
-        <h3 class="font-bold text-xl text-neutral-500">Vision Habitat Loiret</h3>
+        <a href="../index.html">Home</a>
+        <a href="../approche.html">Notre approche</a>
       </div>
-      <div class="p-5">
-        <div class="text-sm uppercase text-neutral-500 font-bold">Liens</div>
-        <a class="my-3 block" href="../index.html">Home</a>
-        <a class="my-3 block" href="../approche.html">Notre approche</a>
-        <a class="my-3 block" href="../a_propos.html">À propos</a>
-      </div>
-      <div class="p-5">
-        <div class="text-sm uppercase text-neutral-500 font-bold">Nos actions</div>
-        <a class="my-3 block" href="ancien-ehpad.html">Ancien EHPAD</a>
-        <a class="my-3 block" href="prieure-chateau-renard.html">Prieuré de Château-Renard</a>
-      </div>
+    </div>
+    <div class="flex pb-5 px-3 m-auto border-t border-neutral-400 text-sm flex-col w-full items-center">
+      <div class="my-5 text-neutral-200">© Copyright 2024. All Rights Reserved.</div>
     </div>
   </div>
 
@@ -122,7 +124,6 @@
       carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
     }
   </script>
-
 </body>
 
 </html>
